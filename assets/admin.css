@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+}
+
+/* Navigation Links */
+a {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="text"], input[type="file"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Table Actions */
+.table-actions a {
+    margin-right: 10px;
+}
+
+.table-actions a:last-child {
+    margin-right: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
